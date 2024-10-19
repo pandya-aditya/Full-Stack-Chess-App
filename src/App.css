@@ -1,0 +1,36 @@
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.grid-square {
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.light-square {
+  background-color: #f0d9b5; /* Light square color */
+}
+
+.dark-square {
+  background-color: #b58863; /* Dark square color */
+}
+
+.grid-square:hover {
+  opacity: 0.8; /* Slight opacity change on hover */
+}
+
+body {
+  background-color: #333;
+}
